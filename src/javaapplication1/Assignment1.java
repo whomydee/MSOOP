@@ -24,7 +24,12 @@ public class Assignment1 {
         //a.isTriangle();
         //a.isPowerOfTwo();
         //a.largestNumber();
-        a.leapYearChecker();
+        //a.leapYearChecker();
+        
+        LoopsRelatedProblems b = new LoopsRelatedProblems();
+        //b.normalSeries();
+        //b.oddSeries();
+        b.binaryDigit();
         
     }
     
