@@ -3,14 +3,16 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package javaapplication1;
+package assignment1;
+
+import assignment2.LoopsRelatedProblems;
 
 
 /**
  *
  * @author Shad Humydee
  */
-public class Assignment1 {
+public class AssignmentOne {
 
     /**
      * @param args the command line arguments
@@ -18,18 +20,13 @@ public class Assignment1 {
     public static void main(String[] args) {
         // TODO code application logic here
         IfElseProblems a = new IfElseProblems();
-        //a.isPositive();
+        a.isPositive();
         //a.isOdd();
         //a.digitInEnglish();
         //a.isTriangle();
         //a.isPowerOfTwo();
         //a.largestNumber();
-        //a.leapYearChecker();
-        
-        LoopsRelatedProblems b = new LoopsRelatedProblems();
-        //b.normalSeries();
-        //b.oddSeries();
-        b.binaryDigit();
+        //a.leapYearChecker
         
     }
     

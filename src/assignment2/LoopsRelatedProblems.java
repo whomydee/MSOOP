@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package javaapplication1;
+package assignment2;
 
 import java.util.Scanner;
 
@@ -65,5 +65,15 @@ public class LoopsRelatedProblems {
             }
         }
         System.out.println();
+    }
+    
+    static void average() {
+        Scanner input = new Scanner(System.in);
+        int n = input.nextInt();
+        double sum = 0.0;
+        for(int  i = 0; i < n; ++i) {
+            sum += input.nextDouble();
+        }
+        System.out.println("AVG of " + n + " inputs: " + sum / n);
     }
 }
