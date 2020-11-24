@@ -34,7 +34,12 @@ public class AssignmentTwo {
         //b.reverseDigits();
         //b.weirdSeriesSum();
         //b.fibonacci();
-        b.factorial();
+        //b.factorial();
+        //b.combination();
+        //b.power();
+        //b.gcdlcm();
+        b.primeChecker();
+
         
     }
     
