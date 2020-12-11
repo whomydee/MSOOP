@@ -107,6 +107,7 @@ public class LoopRelatedProblems {
             int tmp = input.nextInt();
             if (tmp == x) {
                 System.out.println("Right, Player-2 wins!");
+                break;
             } else if (i != n - 1) {
                 System.out.println("Wrong, " + (n - i - 1) + " Choice(s) Left!\n");
             } else {

@@ -4,6 +4,7 @@
  * and open the template in the editor.
  */
 package assignments;
+import online.*;
 
 
 /**
@@ -26,7 +27,7 @@ public class AssignmentTwo {
         //a.largestNumber();
         //a.leapYearChecker
 
-        LoopRelatedProblems b = new LoopRelatedProblems();
+        //LoopRelatedProblems b = new LoopRelatedProblems();
         //b.average();
         //b.squareIncrement();
         //b.guessingGame();
@@ -38,8 +39,11 @@ public class AssignmentTwo {
         //b.combination();
         //b.power();
         //b.gcdlcm();
-        b.primeChecker();
+        //b.primeChecker();
 
+        MidExam c = new MidExam();
+        //c.seriesPrinter();
+        c.calculator();
         
     }
     
