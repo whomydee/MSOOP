@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package assignments;
+package assignment1_2_3;
 import online.*;
 
 
@@ -41,10 +41,16 @@ public class AssignmentTwo {
         //b.gcdlcm();
         //b.primeChecker();
 
-        MidExam c = new MidExam();
+        //MidExam c = new MidExam();
         //c.seriesPrinter();
-        c.calculator();
-        
+        //c.calculator();
+
+        Grader khan = new Grader("Khan", "007", 10, 500);
+        khan.printEarnings();
+
+        LabAssistant shad = new LabAssistant("Shad", "108", 8, 700);
+        shad.printEarnings();
+
     }
     
 }
